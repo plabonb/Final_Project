@@ -11,9 +11,47 @@ body{
 }
 
 .navbar-container{
+    top: 0;
     background-color: #262B37;
+    position: sticky;
+    z-index: 2;
 }
 
 .about-container{
     background-color: #00BDBD;
+}
+
+.education-container{
+    background-color: #EEEEEE ;
+}
+
+.bg-radtype{
+    background-color: #FB857F;
+}
+
+.bg-radtype:hover{
+    color: black !important;
+}
+
+.redtype-color{
+    color: #FB857F;
+}
+
+.circle{
+    background-color: #FB857F;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.project-container{
+    background-color: #2BB3DD;
+}
+
+.form-container{
+    background-color: #474D5D;
+}
+
+.inner-form{
+background-color: #585F73;
 }
